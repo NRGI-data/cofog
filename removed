@@ -1,0 +1,12 @@
+
+  "sources": [{
+    "name": "United Nations",
+    "web": "http://unstats.un.org/unsd/class/family/family2.asp?Cl=4"
+  }],
+  "licenses": [
+    {
+      "id": "odc-pddl",
+      "name": "Open Data Commons Public Domain Dedication and Licence (PDDL)", 
+      "url": "http://opendatacommons.org/licenses/pddl/"
+    }
+  ],
