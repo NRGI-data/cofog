@@ -1,0 +1,1890 @@
+@prefix cofog: <http://cofog.eu/cofog#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cofog:Code a rdfs:Datatype ;
+    rdfs:label "Function Code" ;
+    rdfs:isDefinedBy <http://cofog.eu/> .
+
+cofog:level a owl:DatatypeProperty ;
+    rdfs:label "Function Level" ;
+    rdfs:domain cofog:Function ;
+    rdfs:isDefinedBy <http://cofog.eu/> .
+
+<http://cofog.eu/cofog/1999/01/01/01> a cofog:Function ;
+    rdfs:label "Executive and legislative organs  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/01/01> ;
+    skos:definition "Executive and legislative organs  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "01.1.1"^^cofog:Code ;
+    skos:prefLabel "Executive and legislative organs  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/01/01/02> a cofog:Function ;
+    rdfs:label "Financial and fiscal affairs  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/01/01> ;
+    skos:definition "Financial and fiscal affairs  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "01.1.2"^^cofog:Code ;
+    skos:prefLabel "Financial and fiscal affairs  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/01/01/03> a cofog:Function ;
+    rdfs:label "External affairs  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/01/01> ;
+    skos:definition "External affairs  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "01.1.3"^^cofog:Code ;
+    skos:prefLabel "External affairs  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/01/02/01> a cofog:Function ;
+    rdfs:label "Economic aid to developing countries and countries in transition  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/01/02> ;
+    skos:definition "Economic aid to developing countries and countries in transition  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "01.2.1"^^cofog:Code ;
+    skos:prefLabel "Economic aid to developing countries and countries in transition  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/01/02/02> a cofog:Function ;
+    rdfs:label "Economic aid routed through international organizations  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/01/02> ;
+    skos:definition "Economic aid routed through international organizations  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "01.2.2"^^cofog:Code ;
+    skos:prefLabel "Economic aid routed through international organizations  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/01/03/01> a cofog:Function ;
+    rdfs:label "General personnel services  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/01/03> ;
+    skos:definition "General personnel services  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "01.3.1"^^cofog:Code ;
+    skos:prefLabel "General personnel services  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/01/03/02> a cofog:Function ;
+    rdfs:label "Overall planning and statistical services  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/01/03> ;
+    skos:definition "Overall planning and statistical services  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "01.3.2"^^cofog:Code ;
+    skos:prefLabel "Overall planning and statistical services  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/01/03/03> a cofog:Function ;
+    rdfs:label "Other general services  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/01/03> ;
+    skos:definition "Other general services  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "01.3.3"^^cofog:Code ;
+    skos:prefLabel "Other general services  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/01/04/00> a cofog:Function ;
+    rdfs:label "Basic research  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/01/04> ;
+    skos:definition "Basic research  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "01.4.0"^^cofog:Code ;
+    skos:prefLabel "Basic research  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/01/05/00> a cofog:Function ;
+    rdfs:label "R&D General public services  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/01/05> ;
+    skos:definition "R&D General public services  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "01.5.0"^^cofog:Code ;
+    skos:prefLabel "R&D General public services  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/01/06/00> a cofog:Function ;
+    rdfs:label "General public services n.e.c.  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/01/06> ;
+    skos:definition "General public services n.e.c.  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "01.6.0"^^cofog:Code ;
+    skos:prefLabel "General public services n.e.c.  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/01/07/00> a cofog:Function ;
+    rdfs:label "Public debt transactions  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/01/07> ;
+    skos:definition "Public debt transactions  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "01.7.0"^^cofog:Code ;
+    skos:prefLabel "Public debt transactions  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/01/08/00> a cofog:Function ;
+    rdfs:label "Transfers of a general character between different levels of government  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/01/08> ;
+    skos:definition "Transfers of a general character between different levels of government  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "01.8.0"^^cofog:Code ;
+    skos:prefLabel "Transfers of a general character between different levels of government  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/02/01/00> a cofog:Function ;
+    rdfs:label "Military defence  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/02/01> ;
+    skos:definition "Military defence  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "02.1.0"^^cofog:Code ;
+    skos:prefLabel "Military defence  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/02/02/00> a cofog:Function ;
+    rdfs:label "Civil defence  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/02/02> ;
+    skos:definition "Civil defence  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "02.2.0"^^cofog:Code ;
+    skos:prefLabel "Civil defence  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/02/03/00> a cofog:Function ;
+    rdfs:label "Foreign military aid  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/02/03> ;
+    skos:definition "Foreign military aid  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "02.3.0"^^cofog:Code ;
+    skos:prefLabel "Foreign military aid  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/02/04/00> a cofog:Function ;
+    rdfs:label "R&D Defence  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/02/04> ;
+    skos:definition "R&D Defence  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "02.4.0"^^cofog:Code ;
+    skos:prefLabel "R&D Defence  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/02/05/00> a cofog:Function ;
+    rdfs:label "Defence n.e.c.  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/02/05> ;
+    skos:definition "Defence n.e.c.  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "02.5.0"^^cofog:Code ;
+    skos:prefLabel "Defence n.e.c.  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/03/01/00> a cofog:Function ;
+    rdfs:label "Police services  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/03/01> ;
+    skos:definition "Police services  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "03.1.0"^^cofog:Code ;
+    skos:prefLabel "Police services  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/03/02/00> a cofog:Function ;
+    rdfs:label "Fire-protection services  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/03/02> ;
+    skos:definition "Fire-protection services  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "03.2.0"^^cofog:Code ;
+    skos:prefLabel "Fire-protection services  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/03/03/00> a cofog:Function ;
+    rdfs:label "Law courts  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/03/03> ;
+    skos:definition "Law courts  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "03.3.0"^^cofog:Code ;
+    skos:prefLabel "Law courts  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/03/04/00> a cofog:Function ;
+    rdfs:label "Prisons  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/03/04> ;
+    skos:definition "Prisons  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "03.4.0"^^cofog:Code ;
+    skos:prefLabel "Prisons  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/03/05/00> a cofog:Function ;
+    rdfs:label "R&D Public order and safety  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/03/05> ;
+    skos:definition "R&D Public order and safety  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "03.5.0"^^cofog:Code ;
+    skos:prefLabel "R&D Public order and safety  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/03/06/00> a cofog:Function ;
+    rdfs:label "Public order and safety n.e.c.  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/03/06> ;
+    skos:definition "Public order and safety n.e.c.  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "03.6.0"^^cofog:Code ;
+    skos:prefLabel "Public order and safety n.e.c.  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/01/01> a cofog:Function ;
+    rdfs:label "General economic and commercial affairs  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/01> ;
+    skos:definition "General economic and commercial affairs  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.1.1"^^cofog:Code ;
+    skos:prefLabel "General economic and commercial affairs  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/01/02> a cofog:Function ;
+    rdfs:label "General labour affairs  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/01> ;
+    skos:definition "General labour affairs  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.1.2"^^cofog:Code ;
+    skos:prefLabel "General labour affairs  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/02/01> a cofog:Function ;
+    rdfs:label "Agriculture  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/02> ;
+    skos:definition "Agriculture  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.2.1"^^cofog:Code ;
+    skos:prefLabel "Agriculture  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/02/02> a cofog:Function ;
+    rdfs:label "Forestry  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/02> ;
+    skos:definition "Forestry  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.2.2"^^cofog:Code ;
+    skos:prefLabel "Forestry  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/02/03> a cofog:Function ;
+    rdfs:label "Fishing and hunting  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/02> ;
+    skos:definition "Fishing and hunting  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.2.3"^^cofog:Code ;
+    skos:prefLabel "Fishing and hunting  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/03/01> a cofog:Function ;
+    rdfs:label "Coal and other solid mineral fuels  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/03> ;
+    skos:definition "Coal and other solid mineral fuels  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.3.1"^^cofog:Code ;
+    skos:prefLabel "Coal and other solid mineral fuels  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/03/02> a cofog:Function ;
+    rdfs:label "Petroleum and natural gas  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/03> ;
+    skos:definition "Petroleum and natural gas  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.3.2"^^cofog:Code ;
+    skos:prefLabel "Petroleum and natural gas  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/03/03> a cofog:Function ;
+    rdfs:label "Nuclear fuel  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/03> ;
+    skos:definition "Nuclear fuel  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.3.3"^^cofog:Code ;
+    skos:prefLabel "Nuclear fuel  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/03/04> a cofog:Function ;
+    rdfs:label "Other fuels  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/03> ;
+    skos:definition "Other fuels  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.3.4"^^cofog:Code ;
+    skos:prefLabel "Other fuels  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/03/05> a cofog:Function ;
+    rdfs:label "Electricity  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/03> ;
+    skos:definition "Electricity  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.3.5"^^cofog:Code ;
+    skos:prefLabel "Electricity  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/03/06> a cofog:Function ;
+    rdfs:label "Non-electric energy  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/03> ;
+    skos:definition "Non-electric energy  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.3.6"^^cofog:Code ;
+    skos:prefLabel "Non-electric energy  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/04/01> a cofog:Function ;
+    rdfs:label "Mining of mineral resources other than mineral fuels  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/04> ;
+    skos:definition "Mining of mineral resources other than mineral fuels  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.4.1"^^cofog:Code ;
+    skos:prefLabel "Mining of mineral resources other than mineral fuels  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/04/02> a cofog:Function ;
+    rdfs:label "Manufacturing  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/04> ;
+    skos:definition "Manufacturing  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.4.2"^^cofog:Code ;
+    skos:prefLabel "Manufacturing  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/04/03> a cofog:Function ;
+    rdfs:label "Construction  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/04> ;
+    skos:definition "Construction  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.4.3"^^cofog:Code ;
+    skos:prefLabel "Construction  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/05/01> a cofog:Function ;
+    rdfs:label "Road transport  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/05> ;
+    skos:definition "Road transport  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.5.1"^^cofog:Code ;
+    skos:prefLabel "Road transport  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/05/02> a cofog:Function ;
+    rdfs:label "Water transport  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/05> ;
+    skos:definition "Water transport  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.5.2"^^cofog:Code ;
+    skos:prefLabel "Water transport  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/05/03> a cofog:Function ;
+    rdfs:label "Railway transport  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/05> ;
+    skos:definition "Railway transport  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.5.3"^^cofog:Code ;
+    skos:prefLabel "Railway transport  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/05/04> a cofog:Function ;
+    rdfs:label "Air transport  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/05> ;
+    skos:definition "Air transport  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.5.4"^^cofog:Code ;
+    skos:prefLabel "Air transport  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/05/05> a cofog:Function ;
+    rdfs:label "Pipeline and other transport  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/05> ;
+    skos:definition "Pipeline and other transport  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.5.5"^^cofog:Code ;
+    skos:prefLabel "Pipeline and other transport  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/06/00> a cofog:Function ;
+    rdfs:label "Communication  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/06> ;
+    skos:definition "Communication  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.6.0"^^cofog:Code ;
+    skos:prefLabel "Communication  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/07/01> a cofog:Function ;
+    rdfs:label "Distributive trades, storage and warehousing  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/07> ;
+    skos:definition "Distributive trades, storage and warehousing  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.7.1"^^cofog:Code ;
+    skos:prefLabel "Distributive trades, storage and warehousing  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/07/02> a cofog:Function ;
+    rdfs:label "Hotels and restaurants  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/07> ;
+    skos:definition "Hotels and restaurants  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.7.2"^^cofog:Code ;
+    skos:prefLabel "Hotels and restaurants  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/07/03> a cofog:Function ;
+    rdfs:label "Tourism  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/07> ;
+    skos:definition "Tourism  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.7.3"^^cofog:Code ;
+    skos:prefLabel "Tourism  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/07/04> a cofog:Function ;
+    rdfs:label "Multi-purpose development projects  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/07> ;
+    skos:definition "Multi-purpose development projects  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.7.4"^^cofog:Code ;
+    skos:prefLabel "Multi-purpose development projects  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/08/01> a cofog:Function ;
+    rdfs:label "R&D General economic, commercial and labour affairs  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/08> ;
+    skos:definition "R&D General economic, commercial and labour affairs  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.8.1"^^cofog:Code ;
+    skos:prefLabel "R&D General economic, commercial and labour affairs  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/08/02> a cofog:Function ;
+    rdfs:label "R&D Agriculture, forestry, fishing and hunting  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/08> ;
+    skos:definition "R&D Agriculture, forestry, fishing and hunting  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.8.2"^^cofog:Code ;
+    skos:prefLabel "R&D Agriculture, forestry, fishing and hunting  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/08/03> a cofog:Function ;
+    rdfs:label "R&D Fuel and energy  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/08> ;
+    skos:definition "R&D Fuel and energy  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.8.3"^^cofog:Code ;
+    skos:prefLabel "R&D Fuel and energy  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/08/04> a cofog:Function ;
+    rdfs:label "R&D Mining, manufacturing and construction  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/08> ;
+    skos:definition "R&D Mining, manufacturing and construction  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.8.4"^^cofog:Code ;
+    skos:prefLabel "R&D Mining, manufacturing and construction  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/08/05> a cofog:Function ;
+    rdfs:label "R&D Transport  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/08> ;
+    skos:definition "R&D Transport  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.8.5"^^cofog:Code ;
+    skos:prefLabel "R&D Transport  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/08/06> a cofog:Function ;
+    rdfs:label "R&D Communication  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/08> ;
+    skos:definition "R&D Communication  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.8.6"^^cofog:Code ;
+    skos:prefLabel "R&D Communication  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/08/07> a cofog:Function ;
+    rdfs:label "R&D Other industries  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/08> ;
+    skos:definition "R&D Other industries  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.8.7"^^cofog:Code ;
+    skos:prefLabel "R&D Other industries  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/04/09/00> a cofog:Function ;
+    rdfs:label "Economic affairs n.e.c.  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/04/09> ;
+    skos:definition "Economic affairs n.e.c.  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "04.9.0"^^cofog:Code ;
+    skos:prefLabel "Economic affairs n.e.c.  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/05/01/00> a cofog:Function ;
+    rdfs:label "Waste management  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/05/01> ;
+    skos:definition "Waste management  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "05.1.0"^^cofog:Code ;
+    skos:prefLabel "Waste management  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/05/02/00> a cofog:Function ;
+    rdfs:label "Waste water management  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/05/02> ;
+    skos:definition "Waste water management  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "05.2.0"^^cofog:Code ;
+    skos:prefLabel "Waste water management  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/05/03/00> a cofog:Function ;
+    rdfs:label "Pollution abatement  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/05/03> ;
+    skos:definition "Pollution abatement  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "05.3.0"^^cofog:Code ;
+    skos:prefLabel "Pollution abatement  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/05/04/00> a cofog:Function ;
+    rdfs:label "Protection of biodiversity and landscape  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/05/04> ;
+    skos:definition "Protection of biodiversity and landscape  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "05.4.0"^^cofog:Code ;
+    skos:prefLabel "Protection of biodiversity and landscape  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/05/05/00> a cofog:Function ;
+    rdfs:label "R&D Environmental protection  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/05/05> ;
+    skos:definition "R&D Environmental protection  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "05.5.0"^^cofog:Code ;
+    skos:prefLabel "R&D Environmental protection  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/05/06/00> a cofog:Function ;
+    rdfs:label "Environmental protection n.e.c.  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/05/06> ;
+    skos:definition "Environmental protection n.e.c.  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "05.6.0"^^cofog:Code ;
+    skos:prefLabel "Environmental protection n.e.c.  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/06/01/00> a cofog:Function ;
+    rdfs:label "Housing development  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/06/01> ;
+    skos:definition "Housing development  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "06.1.0"^^cofog:Code ;
+    skos:prefLabel "Housing development  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/06/02/00> a cofog:Function ;
+    rdfs:label "Community development  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/06/02> ;
+    skos:definition "Community development  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "06.2.0"^^cofog:Code ;
+    skos:prefLabel "Community development  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/06/03/00> a cofog:Function ;
+    rdfs:label "Water supply  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/06/03> ;
+    skos:definition "Water supply  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "06.3.0"^^cofog:Code ;
+    skos:prefLabel "Water supply  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/06/04/00> a cofog:Function ;
+    rdfs:label "Street lighting  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/06/04> ;
+    skos:definition "Street lighting  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "06.4.0"^^cofog:Code ;
+    skos:prefLabel "Street lighting  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/06/05/00> a cofog:Function ;
+    rdfs:label "R&D Housing and community amenities  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/06/05> ;
+    skos:definition "R&D Housing and community amenities  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "06.5.0"^^cofog:Code ;
+    skos:prefLabel "R&D Housing and community amenities  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/06/06/00> a cofog:Function ;
+    rdfs:label "Housing and community amenities n.e.c.  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/06/06> ;
+    skos:definition "Housing and community amenities n.e.c.  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "06.6.0"^^cofog:Code ;
+    skos:prefLabel "Housing and community amenities n.e.c.  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/07/01/01> a cofog:Function ;
+    rdfs:label "Pharmaceutical products  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/07/01> ;
+    skos:definition "Pharmaceutical products  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "07.1.1"^^cofog:Code ;
+    skos:prefLabel "Pharmaceutical products  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/07/01/02> a cofog:Function ;
+    rdfs:label "Other medical products  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/07/01> ;
+    skos:definition "Other medical products  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "07.1.2"^^cofog:Code ;
+    skos:prefLabel "Other medical products  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/07/01/03> a cofog:Function ;
+    rdfs:label "Therapeutic appliances and equipment  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/07/01> ;
+    skos:definition "Therapeutic appliances and equipment  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "07.1.3"^^cofog:Code ;
+    skos:prefLabel "Therapeutic appliances and equipment  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/07/02/01> a cofog:Function ;
+    rdfs:label "General medical services  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/07/02> ;
+    skos:definition "General medical services  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "07.2.1"^^cofog:Code ;
+    skos:prefLabel "General medical services  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/07/02/02> a cofog:Function ;
+    rdfs:label "Specialized medical services  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/07/02> ;
+    skos:definition "Specialized medical services  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "07.2.2"^^cofog:Code ;
+    skos:prefLabel "Specialized medical services  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/07/02/03> a cofog:Function ;
+    rdfs:label "Dental services  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/07/02> ;
+    skos:definition "Dental services  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "07.2.3"^^cofog:Code ;
+    skos:prefLabel "Dental services  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/07/02/04> a cofog:Function ;
+    rdfs:label "Paramedical services  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/07/02> ;
+    skos:definition "Paramedical services  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "07.2.4"^^cofog:Code ;
+    skos:prefLabel "Paramedical services  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/07/03/01> a cofog:Function ;
+    rdfs:label "General hospital services  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/07/03> ;
+    skos:definition "General hospital services  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "07.3.1"^^cofog:Code ;
+    skos:prefLabel "General hospital services  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/07/03/02> a cofog:Function ;
+    rdfs:label "Specialized hospital services  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/07/03> ;
+    skos:definition "Specialized hospital services  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "07.3.2"^^cofog:Code ;
+    skos:prefLabel "Specialized hospital services  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/07/03/03> a cofog:Function ;
+    rdfs:label "Medical and maternity centre services  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/07/03> ;
+    skos:definition "Medical and maternity centre services  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "07.3.3"^^cofog:Code ;
+    skos:prefLabel "Medical and maternity centre services  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/07/03/04> a cofog:Function ;
+    rdfs:label "Nursing and convalescent home services  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/07/03> ;
+    skos:definition "Nursing and convalescent home services  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "07.3.4"^^cofog:Code ;
+    skos:prefLabel "Nursing and convalescent home services  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/07/04/00> a cofog:Function ;
+    rdfs:label "Public health services  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/07/04> ;
+    skos:definition "Public health services  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "07.4.0"^^cofog:Code ;
+    skos:prefLabel "Public health services  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/07/05/00> a cofog:Function ;
+    rdfs:label "R&D Health  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/07/05> ;
+    skos:definition "R&D Health  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "07.5.0"^^cofog:Code ;
+    skos:prefLabel "R&D Health  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/07/06/00> a cofog:Function ;
+    rdfs:label "Health n.e.c.  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/07/06> ;
+    skos:definition "Health n.e.c.  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "07.6.0"^^cofog:Code ;
+    skos:prefLabel "Health n.e.c.  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/08/01/00> a cofog:Function ;
+    rdfs:label "Recreational and sporting services  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/08/01> ;
+    skos:definition "Recreational and sporting services  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "08.1.0"^^cofog:Code ;
+    skos:prefLabel "Recreational and sporting services  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/08/02/00> a cofog:Function ;
+    rdfs:label "Cultural services  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/08/02> ;
+    skos:definition "Cultural services  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "08.2.0"^^cofog:Code ;
+    skos:prefLabel "Cultural services  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/08/03/00> a cofog:Function ;
+    rdfs:label "Broadcasting and publishing services  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/08/03> ;
+    skos:definition "Broadcasting and publishing services  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "08.3.0"^^cofog:Code ;
+    skos:prefLabel "Broadcasting and publishing services  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/08/04/00> a cofog:Function ;
+    rdfs:label "Religious and other community services  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/08/04> ;
+    skos:definition "Religious and other community services  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "08.4.0"^^cofog:Code ;
+    skos:prefLabel "Religious and other community services  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/08/05/00> a cofog:Function ;
+    rdfs:label "R&D Recreation, culture and religion  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/08/05> ;
+    skos:definition "R&D Recreation, culture and religion  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "08.5.0"^^cofog:Code ;
+    skos:prefLabel "R&D Recreation, culture and religion  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/08/06/00> a cofog:Function ;
+    rdfs:label "Recreation, culture and religion n.e.c.  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/08/06> ;
+    skos:definition "Recreation, culture and religion n.e.c.  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "08.6.0"^^cofog:Code ;
+    skos:prefLabel "Recreation, culture and religion n.e.c.  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/09/01/01> a cofog:Function ;
+    rdfs:label "Pre-primary education  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/09/01> ;
+    skos:definition "Pre-primary education  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "09.1.1"^^cofog:Code ;
+    skos:prefLabel "Pre-primary education  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/09/01/02> a cofog:Function ;
+    rdfs:label "Primary education  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/09/01> ;
+    skos:definition "Primary education  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "09.1.2"^^cofog:Code ;
+    skos:prefLabel "Primary education  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/09/02/01> a cofog:Function ;
+    rdfs:label "Lower-secondary education  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/09/02> ;
+    skos:definition "Lower-secondary education  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "09.2.1"^^cofog:Code ;
+    skos:prefLabel "Lower-secondary education  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/09/02/02> a cofog:Function ;
+    rdfs:label "Upper-secondary education  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/09/02> ;
+    skos:definition "Upper-secondary education  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "09.2.2"^^cofog:Code ;
+    skos:prefLabel "Upper-secondary education  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/09/03/00> a cofog:Function ;
+    rdfs:label "Post-secondary non-tertiary education  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/09/03> ;
+    skos:definition "Post-secondary non-tertiary education  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "09.3.0"^^cofog:Code ;
+    skos:prefLabel "Post-secondary non-tertiary education  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/09/04/01> a cofog:Function ;
+    rdfs:label "First stage of tertiary education  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/09/04> ;
+    skos:definition "First stage of tertiary education  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "09.4.1"^^cofog:Code ;
+    skos:prefLabel "First stage of tertiary education  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/09/04/02> a cofog:Function ;
+    rdfs:label "Second stage of tertiary education  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/09/04> ;
+    skos:definition "Second stage of tertiary education  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "09.4.2"^^cofog:Code ;
+    skos:prefLabel "Second stage of tertiary education  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/09/05/00> a cofog:Function ;
+    rdfs:label "Education not definable by level  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/09/05> ;
+    skos:definition "Education not definable by level  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "09.5.0"^^cofog:Code ;
+    skos:prefLabel "Education not definable by level  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/09/06/00> a cofog:Function ;
+    rdfs:label "Subsidiary services to education  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/09/06> ;
+    skos:definition "Subsidiary services to education  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "09.6.0"^^cofog:Code ;
+    skos:prefLabel "Subsidiary services to education  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/09/07/00> a cofog:Function ;
+    rdfs:label "R&D Education  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/09/07> ;
+    skos:definition "R&D Education  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "09.7.0"^^cofog:Code ;
+    skos:prefLabel "R&D Education  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/09/08/00> a cofog:Function ;
+    rdfs:label "Education n.e.c.  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/09/08> ;
+    skos:definition "Education n.e.c.  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "09.8.0"^^cofog:Code ;
+    skos:prefLabel "Education n.e.c.  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/10/01/01> a cofog:Function ;
+    rdfs:label "Sickness  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/10/01> ;
+    skos:definition "Sickness  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "10.1.1"^^cofog:Code ;
+    skos:prefLabel "Sickness  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/10/01/02> a cofog:Function ;
+    rdfs:label "Disability  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/10/01> ;
+    skos:definition "Disability  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "10.1.2"^^cofog:Code ;
+    skos:prefLabel "Disability  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/10/02/00> a cofog:Function ;
+    rdfs:label "Old age  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/10/02> ;
+    skos:definition "Old age  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "10.2.0"^^cofog:Code ;
+    skos:prefLabel "Old age  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/10/03/00> a cofog:Function ;
+    rdfs:label "Survivors  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/10/03> ;
+    skos:definition "Survivors  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "10.3.0"^^cofog:Code ;
+    skos:prefLabel "Survivors  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/10/04/00> a cofog:Function ;
+    rdfs:label "Family and children  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/10/04> ;
+    skos:definition "Family and children  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "10.4.0"^^cofog:Code ;
+    skos:prefLabel "Family and children  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/10/05/00> a cofog:Function ;
+    rdfs:label "Unemployment  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/10/05> ;
+    skos:definition "Unemployment  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "10.5.0"^^cofog:Code ;
+    skos:prefLabel "Unemployment  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/10/06/00> a cofog:Function ;
+    rdfs:label "Housing  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/10/06> ;
+    skos:definition "Housing  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "10.6.0"^^cofog:Code ;
+    skos:prefLabel "Housing  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/10/07/00> a cofog:Function ;
+    rdfs:label "Social exclusion n.e.c.  (IS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/10/07> ;
+    skos:definition "Social exclusion n.e.c.  (IS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "10.7.0"^^cofog:Code ;
+    skos:prefLabel "Social exclusion n.e.c.  (IS)"@en .
+
+<http://cofog.eu/cofog/1999/10/08/00> a cofog:Function ;
+    rdfs:label "R&D Social protection  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/10/08> ;
+    skos:definition "R&D Social protection  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "10.8.0"^^cofog:Code ;
+    skos:prefLabel "R&D Social protection  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/10/09/00> a cofog:Function ;
+    rdfs:label "Social protection n.e.c.  (CS)"@en ;
+    cofog:level 3 ;
+    skos:broader <http://cofog.eu/cofog/1999/10/09> ;
+    skos:definition "Social protection n.e.c.  (CS)"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:notation "10.9.0"^^cofog:Code ;
+    skos:prefLabel "Social protection n.e.c.  (CS)"@en .
+
+<http://cofog.eu/cofog/1999/01/04> a cofog:Function ;
+    rdfs:label "Basic research"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/01> ;
+    skos:definition "Basic research"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/01/04/00> ;
+    skos:notation "01.4"^^cofog:Code ;
+    skos:prefLabel "Basic research"@en .
+
+<http://cofog.eu/cofog/1999/01/05> a cofog:Function ;
+    rdfs:label "R&D General public services"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/01> ;
+    skos:definition "R&D General public services"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/01/05/00> ;
+    skos:notation "01.5"^^cofog:Code ;
+    skos:prefLabel "R&D General public services"@en .
+
+<http://cofog.eu/cofog/1999/01/06> a cofog:Function ;
+    rdfs:label "General public services n.e.c."@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/01> ;
+    skos:definition "General public services n.e.c."@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/01/06/00> ;
+    skos:notation "01.6"^^cofog:Code ;
+    skos:prefLabel "General public services n.e.c."@en .
+
+<http://cofog.eu/cofog/1999/01/07> a cofog:Function ;
+    rdfs:label "Public debt transactions"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/01> ;
+    skos:definition "Public debt transactions"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/01/07/00> ;
+    skos:notation "01.7"^^cofog:Code ;
+    skos:prefLabel "Public debt transactions"@en .
+
+<http://cofog.eu/cofog/1999/01/08> a cofog:Function ;
+    rdfs:label "Transfers of a general character between different levels of government"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/01> ;
+    skos:definition "Transfers of a general character between different levels of government"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/01/08/00> ;
+    skos:notation "01.8"^^cofog:Code ;
+    skos:prefLabel "Transfers of a general character between different levels of government"@en .
+
+<http://cofog.eu/cofog/1999/02/01> a cofog:Function ;
+    rdfs:label "Military defence"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/02> ;
+    skos:definition "Military defence"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/02/01/00> ;
+    skos:notation "02.1"^^cofog:Code ;
+    skos:prefLabel "Military defence"@en .
+
+<http://cofog.eu/cofog/1999/02/02> a cofog:Function ;
+    rdfs:label "Civil defence"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/02> ;
+    skos:definition "Civil defence"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/02/02/00> ;
+    skos:notation "02.2"^^cofog:Code ;
+    skos:prefLabel "Civil defence"@en .
+
+<http://cofog.eu/cofog/1999/02/03> a cofog:Function ;
+    rdfs:label "Foreign military aid"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/02> ;
+    skos:definition "Foreign military aid"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/02/03/00> ;
+    skos:notation "02.3"^^cofog:Code ;
+    skos:prefLabel "Foreign military aid"@en .
+
+<http://cofog.eu/cofog/1999/02/04> a cofog:Function ;
+    rdfs:label "R&D Defence"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/02> ;
+    skos:definition "R&D Defence"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/02/04/00> ;
+    skos:notation "02.4"^^cofog:Code ;
+    skos:prefLabel "R&D Defence"@en .
+
+<http://cofog.eu/cofog/1999/02/05> a cofog:Function ;
+    rdfs:label "Defence n.e.c."@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/02> ;
+    skos:definition "Defence n.e.c."@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/02/05/00> ;
+    skos:notation "02.5"^^cofog:Code ;
+    skos:prefLabel "Defence n.e.c."@en .
+
+<http://cofog.eu/cofog/1999/03/01> a cofog:Function ;
+    rdfs:label "Police services"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/03> ;
+    skos:definition "Police services"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/03/01/00> ;
+    skos:notation "03.1"^^cofog:Code ;
+    skos:prefLabel "Police services"@en .
+
+<http://cofog.eu/cofog/1999/03/02> a cofog:Function ;
+    rdfs:label "Fire-protection services"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/03> ;
+    skos:definition "Fire-protection services"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/03/02/00> ;
+    skos:notation "03.2"^^cofog:Code ;
+    skos:prefLabel "Fire-protection services"@en .
+
+<http://cofog.eu/cofog/1999/03/03> a cofog:Function ;
+    rdfs:label "Law courts"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/03> ;
+    skos:definition "Law courts"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/03/03/00> ;
+    skos:notation "03.3"^^cofog:Code ;
+    skos:prefLabel "Law courts"@en .
+
+<http://cofog.eu/cofog/1999/03/04> a cofog:Function ;
+    rdfs:label "Prisons"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/03> ;
+    skos:definition "Prisons"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/03/04/00> ;
+    skos:notation "03.4"^^cofog:Code ;
+    skos:prefLabel "Prisons"@en .
+
+<http://cofog.eu/cofog/1999/03/05> a cofog:Function ;
+    rdfs:label "R&D Public order and safety"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/03> ;
+    skos:definition "R&D Public order and safety"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/03/05/00> ;
+    skos:notation "03.5"^^cofog:Code ;
+    skos:prefLabel "R&D Public order and safety"@en .
+
+<http://cofog.eu/cofog/1999/03/06> a cofog:Function ;
+    rdfs:label "Public order and safety n.e.c."@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/03> ;
+    skos:definition "Public order and safety n.e.c."@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/03/06/00> ;
+    skos:notation "03.6"^^cofog:Code ;
+    skos:prefLabel "Public order and safety n.e.c."@en .
+
+<http://cofog.eu/cofog/1999/04/06> a cofog:Function ;
+    rdfs:label "Communication"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/04> ;
+    skos:definition "Communication"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/04/06/00> ;
+    skos:notation "04.6"^^cofog:Code ;
+    skos:prefLabel "Communication"@en .
+
+<http://cofog.eu/cofog/1999/04/09> a cofog:Function ;
+    rdfs:label "Economic affairs n.e.c."@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/04> ;
+    skos:definition "Economic affairs n.e.c."@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/04/09/00> ;
+    skos:notation "04.9"^^cofog:Code ;
+    skos:prefLabel "Economic affairs n.e.c."@en .
+
+<http://cofog.eu/cofog/1999/05/01> a cofog:Function ;
+    rdfs:label "Waste management"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/05> ;
+    skos:definition "Waste management"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/05/01/00> ;
+    skos:notation "05.1"^^cofog:Code ;
+    skos:prefLabel "Waste management"@en .
+
+<http://cofog.eu/cofog/1999/05/02> a cofog:Function ;
+    rdfs:label "Waste water management"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/05> ;
+    skos:definition "Waste water management"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/05/02/00> ;
+    skos:notation "05.2"^^cofog:Code ;
+    skos:prefLabel "Waste water management"@en .
+
+<http://cofog.eu/cofog/1999/05/03> a cofog:Function ;
+    rdfs:label "Pollution abatement"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/05> ;
+    skos:definition "Pollution abatement"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/05/03/00> ;
+    skos:notation "05.3"^^cofog:Code ;
+    skos:prefLabel "Pollution abatement"@en .
+
+<http://cofog.eu/cofog/1999/05/04> a cofog:Function ;
+    rdfs:label "Protection of biodiversity and landscape"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/05> ;
+    skos:definition "Protection of biodiversity and landscape"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/05/04/00> ;
+    skos:notation "05.4"^^cofog:Code ;
+    skos:prefLabel "Protection of biodiversity and landscape"@en .
+
+<http://cofog.eu/cofog/1999/05/05> a cofog:Function ;
+    rdfs:label "R&D Environmental protection"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/05> ;
+    skos:definition "R&D Environmental protection"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/05/05/00> ;
+    skos:notation "05.5"^^cofog:Code ;
+    skos:prefLabel "R&D Environmental protection"@en .
+
+<http://cofog.eu/cofog/1999/05/06> a cofog:Function ;
+    rdfs:label "Environmental protection n.e.c."@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/05> ;
+    skos:definition "Environmental protection n.e.c."@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/05/06/00> ;
+    skos:notation "05.6"^^cofog:Code ;
+    skos:prefLabel "Environmental protection n.e.c."@en .
+
+<http://cofog.eu/cofog/1999/06/01> a cofog:Function ;
+    rdfs:label "Housing development"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/06> ;
+    skos:definition "Housing development"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/06/01/00> ;
+    skos:notation "06.1"^^cofog:Code ;
+    skos:prefLabel "Housing development"@en .
+
+<http://cofog.eu/cofog/1999/06/02> a cofog:Function ;
+    rdfs:label "Community development"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/06> ;
+    skos:definition "Community development"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/06/02/00> ;
+    skos:notation "06.2"^^cofog:Code ;
+    skos:prefLabel "Community development"@en .
+
+<http://cofog.eu/cofog/1999/06/03> a cofog:Function ;
+    rdfs:label "Water supply"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/06> ;
+    skos:definition "Water supply"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/06/03/00> ;
+    skos:notation "06.3"^^cofog:Code ;
+    skos:prefLabel "Water supply"@en .
+
+<http://cofog.eu/cofog/1999/06/04> a cofog:Function ;
+    rdfs:label "Street lighting"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/06> ;
+    skos:definition "Street lighting"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/06/04/00> ;
+    skos:notation "06.4"^^cofog:Code ;
+    skos:prefLabel "Street lighting"@en .
+
+<http://cofog.eu/cofog/1999/06/05> a cofog:Function ;
+    rdfs:label "R&D Housing and community amenities"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/06> ;
+    skos:definition "R&D Housing and community amenities"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/06/05/00> ;
+    skos:notation "06.5"^^cofog:Code ;
+    skos:prefLabel "R&D Housing and community amenities"@en .
+
+<http://cofog.eu/cofog/1999/06/06> a cofog:Function ;
+    rdfs:label "Housing and community amenities n.e.c."@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/06> ;
+    skos:definition "Housing and community amenities n.e.c."@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/06/06/00> ;
+    skos:notation "06.6"^^cofog:Code ;
+    skos:prefLabel "Housing and community amenities n.e.c."@en .
+
+<http://cofog.eu/cofog/1999/07/04> a cofog:Function ;
+    rdfs:label "Public health services"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/07> ;
+    skos:definition "Public health services"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/07/04/00> ;
+    skos:notation "07.4"^^cofog:Code ;
+    skos:prefLabel "Public health services"@en .
+
+<http://cofog.eu/cofog/1999/07/05> a cofog:Function ;
+    rdfs:label "R&D Health"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/07> ;
+    skos:definition "R&D Health"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/07/05/00> ;
+    skos:notation "07.5"^^cofog:Code ;
+    skos:prefLabel "R&D Health"@en .
+
+<http://cofog.eu/cofog/1999/07/06> a cofog:Function ;
+    rdfs:label "Health n.e.c."@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/07> ;
+    skos:definition "Health n.e.c."@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/07/06/00> ;
+    skos:notation "07.6"^^cofog:Code ;
+    skos:prefLabel "Health n.e.c."@en .
+
+<http://cofog.eu/cofog/1999/08/01> a cofog:Function ;
+    rdfs:label "Recreational and sporting services"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/08> ;
+    skos:definition "Recreational and sporting services"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/08/01/00> ;
+    skos:notation "08.1"^^cofog:Code ;
+    skos:prefLabel "Recreational and sporting services"@en .
+
+<http://cofog.eu/cofog/1999/08/02> a cofog:Function ;
+    rdfs:label "Cultural services"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/08> ;
+    skos:definition "Cultural services"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/08/02/00> ;
+    skos:notation "08.2"^^cofog:Code ;
+    skos:prefLabel "Cultural services"@en .
+
+<http://cofog.eu/cofog/1999/08/03> a cofog:Function ;
+    rdfs:label "Broadcasting and publishing services"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/08> ;
+    skos:definition "Broadcasting and publishing services"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/08/03/00> ;
+    skos:notation "08.3"^^cofog:Code ;
+    skos:prefLabel "Broadcasting and publishing services"@en .
+
+<http://cofog.eu/cofog/1999/08/04> a cofog:Function ;
+    rdfs:label "Religious and other community services"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/08> ;
+    skos:definition "Religious and other community services"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/08/04/00> ;
+    skos:notation "08.4"^^cofog:Code ;
+    skos:prefLabel "Religious and other community services"@en .
+
+<http://cofog.eu/cofog/1999/08/05> a cofog:Function ;
+    rdfs:label "R&D Recreation, culture and religion"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/08> ;
+    skos:definition "R&D Recreation, culture and religion"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/08/05/00> ;
+    skos:notation "08.5"^^cofog:Code ;
+    skos:prefLabel "R&D Recreation, culture and religion"@en .
+
+<http://cofog.eu/cofog/1999/08/06> a cofog:Function ;
+    rdfs:label "Recreation, culture and religion n.e.c."@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/08> ;
+    skos:definition "Recreation, culture and religion n.e.c."@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/08/06/00> ;
+    skos:notation "08.6"^^cofog:Code ;
+    skos:prefLabel "Recreation, culture and religion n.e.c."@en .
+
+<http://cofog.eu/cofog/1999/09/03> a cofog:Function ;
+    rdfs:label "Post-secondary non-tertiary education"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/09> ;
+    skos:definition "Post-secondary non-tertiary education"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/09/03/00> ;
+    skos:notation "09.3"^^cofog:Code ;
+    skos:prefLabel "Post-secondary non-tertiary education"@en .
+
+<http://cofog.eu/cofog/1999/09/05> a cofog:Function ;
+    rdfs:label "Education not definable by level"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/09> ;
+    skos:definition "Education not definable by level"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/09/05/00> ;
+    skos:notation "09.5"^^cofog:Code ;
+    skos:prefLabel "Education not definable by level"@en .
+
+<http://cofog.eu/cofog/1999/09/06> a cofog:Function ;
+    rdfs:label "Subsidiary services to education"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/09> ;
+    skos:definition "Subsidiary services to education"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/09/06/00> ;
+    skos:notation "09.6"^^cofog:Code ;
+    skos:prefLabel "Subsidiary services to education"@en .
+
+<http://cofog.eu/cofog/1999/09/07> a cofog:Function ;
+    rdfs:label "R&D Education"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/09> ;
+    skos:definition "R&D Education"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/09/07/00> ;
+    skos:notation "09.7"^^cofog:Code ;
+    skos:prefLabel "R&D Education"@en .
+
+<http://cofog.eu/cofog/1999/09/08> a cofog:Function ;
+    rdfs:label "Education n.e.c."@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/09> ;
+    skos:definition "Education n.e.c."@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/09/08/00> ;
+    skos:notation "09.8"^^cofog:Code ;
+    skos:prefLabel "Education n.e.c."@en .
+
+<http://cofog.eu/cofog/1999/10/02> a cofog:Function ;
+    rdfs:label "Old age"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/10> ;
+    skos:definition "Old age"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/10/02/00> ;
+    skos:notation "10.2"^^cofog:Code ;
+    skos:prefLabel "Old age"@en .
+
+<http://cofog.eu/cofog/1999/10/03> a cofog:Function ;
+    rdfs:label "Survivors"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/10> ;
+    skos:definition "Survivors"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/10/03/00> ;
+    skos:notation "10.3"^^cofog:Code ;
+    skos:prefLabel "Survivors"@en .
+
+<http://cofog.eu/cofog/1999/10/04> a cofog:Function ;
+    rdfs:label "Family and children"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/10> ;
+    skos:definition "Family and children"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/10/04/00> ;
+    skos:notation "10.4"^^cofog:Code ;
+    skos:prefLabel "Family and children"@en .
+
+<http://cofog.eu/cofog/1999/10/05> a cofog:Function ;
+    rdfs:label "Unemployment"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/10> ;
+    skos:definition "Unemployment"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/10/05/00> ;
+    skos:notation "10.5"^^cofog:Code ;
+    skos:prefLabel "Unemployment"@en .
+
+<http://cofog.eu/cofog/1999/10/06> a cofog:Function ;
+    rdfs:label "Housing"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/10> ;
+    skos:definition "Housing"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/10/06/00> ;
+    skos:notation "10.6"^^cofog:Code ;
+    skos:prefLabel "Housing"@en .
+
+<http://cofog.eu/cofog/1999/10/07> a cofog:Function ;
+    rdfs:label "Social exclusion n.e.c."@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/10> ;
+    skos:definition "Social exclusion n.e.c."@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/10/07/00> ;
+    skos:notation "10.7"^^cofog:Code ;
+    skos:prefLabel "Social exclusion n.e.c."@en .
+
+<http://cofog.eu/cofog/1999/10/08> a cofog:Function ;
+    rdfs:label "R&D Social protection"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/10> ;
+    skos:definition "R&D Social protection"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/10/08/00> ;
+    skos:notation "10.8"^^cofog:Code ;
+    skos:prefLabel "R&D Social protection"@en .
+
+<http://cofog.eu/cofog/1999/10/09> a cofog:Function ;
+    rdfs:label "Social protection n.e.c."@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/10> ;
+    skos:definition "Social protection n.e.c."@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/10/09/00> ;
+    skos:notation "10.9"^^cofog:Code ;
+    skos:prefLabel "Social protection n.e.c."@en .
+
+<http://cofog.eu/cofog/1999/01/02> a cofog:Function ;
+    rdfs:label "Foreign economic aid"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/01> ;
+    skos:definition "Foreign economic aid"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/01/02/01>,
+        <http://cofog.eu/cofog/1999/01/02/02> ;
+    skos:notation "01.2"^^cofog:Code ;
+    skos:prefLabel "Foreign economic aid"@en .
+
+<http://cofog.eu/cofog/1999/04/01> a cofog:Function ;
+    rdfs:label "General economic, commercial and labour affairs"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/04> ;
+    skos:definition "General economic, commercial and labour affairs"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/04/01/01>,
+        <http://cofog.eu/cofog/1999/04/01/02> ;
+    skos:notation "04.1"^^cofog:Code ;
+    skos:prefLabel "General economic, commercial and labour affairs"@en .
+
+<http://cofog.eu/cofog/1999/09/01> a cofog:Function ;
+    rdfs:label "Pre-primary and primary education"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/09> ;
+    skos:definition "Pre-primary and primary education"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/09/01/01>,
+        <http://cofog.eu/cofog/1999/09/01/02> ;
+    skos:notation "09.1"^^cofog:Code ;
+    skos:prefLabel "Pre-primary and primary education"@en .
+
+<http://cofog.eu/cofog/1999/09/02> a cofog:Function ;
+    rdfs:label "Secondary education"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/09> ;
+    skos:definition "Secondary education"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/09/02/01>,
+        <http://cofog.eu/cofog/1999/09/02/02> ;
+    skos:notation "09.2"^^cofog:Code ;
+    skos:prefLabel "Secondary education"@en .
+
+<http://cofog.eu/cofog/1999/09/04> a cofog:Function ;
+    rdfs:label "Tertiary education"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/09> ;
+    skos:definition "Tertiary education"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/09/04/01>,
+        <http://cofog.eu/cofog/1999/09/04/02> ;
+    skos:notation "09.4"^^cofog:Code ;
+    skos:prefLabel "Tertiary education"@en .
+
+<http://cofog.eu/cofog/1999/10/01> a cofog:Function ;
+    rdfs:label "Sickness and disability"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/10> ;
+    skos:definition "Sickness and disability"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/10/01/01>,
+        <http://cofog.eu/cofog/1999/10/01/02> ;
+    skos:notation "10.1"^^cofog:Code ;
+    skos:prefLabel "Sickness and disability"@en .
+
+<http://cofog.eu/cofog/1999/01/01> a cofog:Function ;
+    rdfs:label "Executive and legislative organs, financial and fiscal affairs, external affairs"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/01> ;
+    skos:definition "Executive and legislative organs, financial and fiscal affairs, external affairs"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/01/01/01>,
+        <http://cofog.eu/cofog/1999/01/01/02>,
+        <http://cofog.eu/cofog/1999/01/01/03> ;
+    skos:notation "01.1"^^cofog:Code ;
+    skos:prefLabel "Executive and legislative organs, financial and fiscal affairs, external affairs"@en .
+
+<http://cofog.eu/cofog/1999/01/03> a cofog:Function ;
+    rdfs:label "General services"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/01> ;
+    skos:definition "General services"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/01/03/01>,
+        <http://cofog.eu/cofog/1999/01/03/02>,
+        <http://cofog.eu/cofog/1999/01/03/03> ;
+    skos:notation "01.3"^^cofog:Code ;
+    skos:prefLabel "General services"@en .
+
+<http://cofog.eu/cofog/1999/04/02> a cofog:Function ;
+    rdfs:label "Agriculture, forestry, fishing and hunting"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/04> ;
+    skos:definition "Agriculture, forestry, fishing and hunting"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/04/02/01>,
+        <http://cofog.eu/cofog/1999/04/02/02>,
+        <http://cofog.eu/cofog/1999/04/02/03> ;
+    skos:notation "04.2"^^cofog:Code ;
+    skos:prefLabel "Agriculture, forestry, fishing and hunting"@en .
+
+<http://cofog.eu/cofog/1999/04/04> a cofog:Function ;
+    rdfs:label "Mining, manufacturing and construction"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/04> ;
+    skos:definition "Mining, manufacturing and construction"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/04/04/01>,
+        <http://cofog.eu/cofog/1999/04/04/02>,
+        <http://cofog.eu/cofog/1999/04/04/03> ;
+    skos:notation "04.4"^^cofog:Code ;
+    skos:prefLabel "Mining, manufacturing and construction"@en .
+
+<http://cofog.eu/cofog/1999/07/01> a cofog:Function ;
+    rdfs:label "Medical products, appliances and equipment"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/07> ;
+    skos:definition "Medical products, appliances and equipment"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/07/01/01>,
+        <http://cofog.eu/cofog/1999/07/01/02>,
+        <http://cofog.eu/cofog/1999/07/01/03> ;
+    skos:notation "07.1"^^cofog:Code ;
+    skos:prefLabel "Medical products, appliances and equipment"@en .
+
+<http://cofog.eu/cofog/1999/02> a cofog:Function ;
+    rdfs:label "Defence"@en ;
+    cofog:level 1 ;
+    skos:definition "Defence"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/02/01>,
+        <http://cofog.eu/cofog/1999/02/02>,
+        <http://cofog.eu/cofog/1999/02/03>,
+        <http://cofog.eu/cofog/1999/02/04>,
+        <http://cofog.eu/cofog/1999/02/05> ;
+    skos:notation "02"^^cofog:Code ;
+    skos:prefLabel "Defence"@en .
+
+<http://cofog.eu/cofog/1999/04/07> a cofog:Function ;
+    rdfs:label "Other industries"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/04> ;
+    skos:definition "Other industries"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/04/07/01>,
+        <http://cofog.eu/cofog/1999/04/07/02>,
+        <http://cofog.eu/cofog/1999/04/07/03>,
+        <http://cofog.eu/cofog/1999/04/07/04> ;
+    skos:notation "04.7"^^cofog:Code ;
+    skos:prefLabel "Other industries"@en .
+
+<http://cofog.eu/cofog/1999/07/02> a cofog:Function ;
+    rdfs:label "Outpatient services"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/07> ;
+    skos:definition "Outpatient services"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/07/02/01>,
+        <http://cofog.eu/cofog/1999/07/02/02>,
+        <http://cofog.eu/cofog/1999/07/02/03>,
+        <http://cofog.eu/cofog/1999/07/02/04> ;
+    skos:notation "07.2"^^cofog:Code ;
+    skos:prefLabel "Outpatient services"@en .
+
+<http://cofog.eu/cofog/1999/07/03> a cofog:Function ;
+    rdfs:label "Hospital services"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/07> ;
+    skos:definition "Hospital services"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/07/03/01>,
+        <http://cofog.eu/cofog/1999/07/03/02>,
+        <http://cofog.eu/cofog/1999/07/03/03>,
+        <http://cofog.eu/cofog/1999/07/03/04> ;
+    skos:notation "07.3"^^cofog:Code ;
+    skos:prefLabel "Hospital services"@en .
+
+<http://cofog.eu/cofog/1999/03> a cofog:Function ;
+    rdfs:label "Public order and safety"@en ;
+    cofog:level 1 ;
+    skos:definition "Public order and safety"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/03/01>,
+        <http://cofog.eu/cofog/1999/03/02>,
+        <http://cofog.eu/cofog/1999/03/03>,
+        <http://cofog.eu/cofog/1999/03/04>,
+        <http://cofog.eu/cofog/1999/03/05>,
+        <http://cofog.eu/cofog/1999/03/06> ;
+    skos:notation "03"^^cofog:Code ;
+    skos:prefLabel "Public order and safety"@en .
+
+<http://cofog.eu/cofog/1999/04/05> a cofog:Function ;
+    rdfs:label "Transport"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/04> ;
+    skos:definition "Transport"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/04/05/01>,
+        <http://cofog.eu/cofog/1999/04/05/02>,
+        <http://cofog.eu/cofog/1999/04/05/03>,
+        <http://cofog.eu/cofog/1999/04/05/04>,
+        <http://cofog.eu/cofog/1999/04/05/05> ;
+    skos:notation "04.5"^^cofog:Code ;
+    skos:prefLabel "Transport"@en .
+
+<http://cofog.eu/cofog/1999/05> a cofog:Function ;
+    rdfs:label "Environmental protection"@en ;
+    cofog:level 1 ;
+    skos:definition "Environmental protection"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/05/01>,
+        <http://cofog.eu/cofog/1999/05/02>,
+        <http://cofog.eu/cofog/1999/05/03>,
+        <http://cofog.eu/cofog/1999/05/04>,
+        <http://cofog.eu/cofog/1999/05/05>,
+        <http://cofog.eu/cofog/1999/05/06> ;
+    skos:notation "05"^^cofog:Code ;
+    skos:prefLabel "Environmental protection"@en .
+
+<http://cofog.eu/cofog/1999/06> a cofog:Function ;
+    rdfs:label "Housing and community amenities"@en ;
+    cofog:level 1 ;
+    skos:definition "Housing and community amenities"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/06/01>,
+        <http://cofog.eu/cofog/1999/06/02>,
+        <http://cofog.eu/cofog/1999/06/03>,
+        <http://cofog.eu/cofog/1999/06/04>,
+        <http://cofog.eu/cofog/1999/06/05>,
+        <http://cofog.eu/cofog/1999/06/06> ;
+    skos:notation "06"^^cofog:Code ;
+    skos:prefLabel "Housing and community amenities"@en .
+
+<http://cofog.eu/cofog/1999/07> a cofog:Function ;
+    rdfs:label "Health"@en ;
+    cofog:level 1 ;
+    skos:definition "Health"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/07/01>,
+        <http://cofog.eu/cofog/1999/07/02>,
+        <http://cofog.eu/cofog/1999/07/03>,
+        <http://cofog.eu/cofog/1999/07/04>,
+        <http://cofog.eu/cofog/1999/07/05>,
+        <http://cofog.eu/cofog/1999/07/06> ;
+    skos:notation "07"^^cofog:Code ;
+    skos:prefLabel "Health"@en .
+
+<http://cofog.eu/cofog/1999/08> a cofog:Function ;
+    rdfs:label "Recreation, culture and religion"@en ;
+    cofog:level 1 ;
+    skos:definition "Recreation, culture and religion"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/08/01>,
+        <http://cofog.eu/cofog/1999/08/02>,
+        <http://cofog.eu/cofog/1999/08/03>,
+        <http://cofog.eu/cofog/1999/08/04>,
+        <http://cofog.eu/cofog/1999/08/05>,
+        <http://cofog.eu/cofog/1999/08/06> ;
+    skos:notation "08"^^cofog:Code ;
+    skos:prefLabel "Recreation, culture and religion"@en .
+
+<http://cofog.eu/cofog/1999/04/03> a cofog:Function ;
+    rdfs:label "Fuel and energy"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/04> ;
+    skos:definition "Fuel and energy"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/04/03/01>,
+        <http://cofog.eu/cofog/1999/04/03/02>,
+        <http://cofog.eu/cofog/1999/04/03/03>,
+        <http://cofog.eu/cofog/1999/04/03/04>,
+        <http://cofog.eu/cofog/1999/04/03/05>,
+        <http://cofog.eu/cofog/1999/04/03/06> ;
+    skos:notation "04.3"^^cofog:Code ;
+    skos:prefLabel "Fuel and energy"@en .
+
+<http://cofog.eu/cofog/1999/01> a cofog:Function ;
+    rdfs:label "General public services"@en ;
+    cofog:level 1 ;
+    skos:definition "General public services"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/01/01>,
+        <http://cofog.eu/cofog/1999/01/02>,
+        <http://cofog.eu/cofog/1999/01/03>,
+        <http://cofog.eu/cofog/1999/01/04>,
+        <http://cofog.eu/cofog/1999/01/05>,
+        <http://cofog.eu/cofog/1999/01/06>,
+        <http://cofog.eu/cofog/1999/01/07>,
+        <http://cofog.eu/cofog/1999/01/08> ;
+    skos:notation "01"^^cofog:Code ;
+    skos:prefLabel "General public services"@en .
+
+<http://cofog.eu/cofog/1999/04/08> a cofog:Function ;
+    rdfs:label "R&D Economic affairs"@en ;
+    cofog:level 2 ;
+    skos:broader <http://cofog.eu/cofog/1999/04> ;
+    skos:definition "R&D Economic affairs"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/04/08/01>,
+        <http://cofog.eu/cofog/1999/04/08/02>,
+        <http://cofog.eu/cofog/1999/04/08/03>,
+        <http://cofog.eu/cofog/1999/04/08/04>,
+        <http://cofog.eu/cofog/1999/04/08/05>,
+        <http://cofog.eu/cofog/1999/04/08/06>,
+        <http://cofog.eu/cofog/1999/04/08/07> ;
+    skos:notation "04.8"^^cofog:Code ;
+    skos:prefLabel "R&D Economic affairs"@en .
+
+<http://cofog.eu/cofog/1999/09> a cofog:Function ;
+    rdfs:label "Education"@en ;
+    cofog:level 1 ;
+    skos:definition "Education"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/09/01>,
+        <http://cofog.eu/cofog/1999/09/02>,
+        <http://cofog.eu/cofog/1999/09/03>,
+        <http://cofog.eu/cofog/1999/09/04>,
+        <http://cofog.eu/cofog/1999/09/05>,
+        <http://cofog.eu/cofog/1999/09/06>,
+        <http://cofog.eu/cofog/1999/09/07>,
+        <http://cofog.eu/cofog/1999/09/08> ;
+    skos:notation "09"^^cofog:Code ;
+    skos:prefLabel "Education"@en .
+
+<http://cofog.eu/cofog/1999/04> a cofog:Function ;
+    rdfs:label "Economic affairs"@en ;
+    cofog:level 1 ;
+    skos:definition "Economic affairs"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/04/01>,
+        <http://cofog.eu/cofog/1999/04/02>,
+        <http://cofog.eu/cofog/1999/04/03>,
+        <http://cofog.eu/cofog/1999/04/04>,
+        <http://cofog.eu/cofog/1999/04/05>,
+        <http://cofog.eu/cofog/1999/04/06>,
+        <http://cofog.eu/cofog/1999/04/07>,
+        <http://cofog.eu/cofog/1999/04/08>,
+        <http://cofog.eu/cofog/1999/04/09> ;
+    skos:notation "04"^^cofog:Code ;
+    skos:prefLabel "Economic affairs"@en .
+
+<http://cofog.eu/cofog/1999/10> a cofog:Function ;
+    rdfs:label "Social protection"@en ;
+    cofog:level 1 ;
+    skos:definition "Social protection"@en ;
+    skos:inScheme <http://cofog.eu/cofog/1999> ;
+    skos:narrower <http://cofog.eu/cofog/1999/10/01>,
+        <http://cofog.eu/cofog/1999/10/02>,
+        <http://cofog.eu/cofog/1999/10/03>,
+        <http://cofog.eu/cofog/1999/10/04>,
+        <http://cofog.eu/cofog/1999/10/05>,
+        <http://cofog.eu/cofog/1999/10/06>,
+        <http://cofog.eu/cofog/1999/10/07>,
+        <http://cofog.eu/cofog/1999/10/08>,
+        <http://cofog.eu/cofog/1999/10/09> ;
+    skos:notation "10"^^cofog:Code ;
+    skos:prefLabel "Social protection"@en .
+
+<http://cofog.eu/cofog/1999> a skos:ConceptScheme ;
+    rdfs:label "Classification of the Functions of Government (COFOG 1999)"@en ;
+    dc:identifier "COFOG_1999" ;
+    skos:prefLabel "Classification of the Functions of Government (COFOG 1999)"@en ;
+    foaf:homepage "http://unstats.un.org/unsd/class/family/family2.asp?Cl=4" .
+
+cofog:Function a owl:Class ;
+    rdfs:label "Function" ;
+    rdfs:isDefinedBy <http://cofog.eu/> ;
+    rdfs:subClassOf skos:Concept .
+
