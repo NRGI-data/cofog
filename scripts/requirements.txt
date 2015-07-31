@@ -2,3 +2,5 @@
 swiss
 BeautifulSoup
 datautil
+swiss
+rdflib

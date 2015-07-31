@@ -12,7 +12,8 @@ from StringIO import StringIO
 
 from swiss.cache import Cache
 
-cache_path = os.path.join(os.path.dirname(__file__), 'cache')
+# cache_path = os.path.join(os.path.dirname(__file__), './cache')
+cache_path = './cache'
 cache = Cache(cache_path)
 
 access_db_zip_url = 'http://unstats.un.org/unsd/cr/registry/regdntransfer.asp?f=186'
@@ -55,13 +56,13 @@ def export_to_csv():
         headings = reader.next()
         for idx,(code,description,details,change_date) in enumerate(reader):
             pass
-    open('cofog.csv', 'w').write(output) 
+    open('../data/cofog.csv', 'w').write(output) 
 
 def export_to_rdf(): 
     '''Export COFOG csv to rdf.'''
     from rdf import cofog_rdf
-    g = cofog_rdf(open('cofog.csv'))
-    outfile = 'cofog.n3'
+    g = cofog_rdf(open('../data/cofog.csv'))
+    outfile = '../data/cofog.n3'
     g.serialize(open(outfile, 'w'), format='n3')
 
 from swiss.clitools import _main
